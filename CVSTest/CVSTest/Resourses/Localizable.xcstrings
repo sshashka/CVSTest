@@ -1,0 +1,48 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "" : {
+
+    },
+    "/10" : {
+
+    },
+    "Add to watchlist" : {
+
+    },
+    "Details" : {
+
+    },
+    "Genre " : {
+
+    },
+    "Movies" : {
+
+    },
+    "ON MY WATCHLIST" : {
+
+    },
+    "Realised date" : {
+
+    },
+    "Released date " : {
+
+    },
+    "Remove from watchlist" : {
+
+    },
+    "Short desctiption" : {
+
+    },
+    "Sort" : {
+
+    },
+    "Title" : {
+
+    },
+    "Watch trailer" : {
+
+    }
+  },
+  "version" : "1.0"
+}
