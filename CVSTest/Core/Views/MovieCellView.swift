@@ -22,12 +22,14 @@ struct MovieCellView: View {
                 .fixedSize()
             VStack(alignment: .leading, spacing: CGFloatConstants.CGFloat10) {
                 Text(title)
-                    .applyTextStyle(.title)
+                    .applyStyle(.title)
                 Text(durationAndGenres)
-                    .applyTextStyle(.grayText)
+                    .applyStyle(.regular)
+                    .foregroundStyle(Color.gray)
                 if isInWatchlist {
                     Spacer()
-                    Text("ON MY WATCHLIST")
+                    Text(Localizables.MainScreenStrings.onWatchlist)
+                        .applyStyle(.regular)
                 }
             }
             .fixedSize(horizontal: false, vertical: true)

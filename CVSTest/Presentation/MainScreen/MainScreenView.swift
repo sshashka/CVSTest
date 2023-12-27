@@ -32,20 +32,17 @@ struct MainScreenView: View {
                                     state: /MainScreenFeature.Destination.State.confirmationDialog,
                                     action: MainScreenFeature.Destination.Action.confirmationDialog
                 )
-                .navigationTitle("Movies")
+                .navigationTitle(Localizables.MainScreenStrings.movies)
                 .toolbar {
                     ToolbarItem(placement: .topBarTrailing) {
                         Button {
                             viewStore.send(.sortButtonTapped)
                         } label: {
-                            Text("Sort")
+                            Text(Localizables.MainScreenStrings.sort)
                                 .foregroundStyle(Color.black)
                         }
                     }
                 }
-                .onAppear(perform: {
-                    viewStore.send(.viewDidAppear)
-                })
             }
         } destination: { store in
             MovieDetailsView(store: store)

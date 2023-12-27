@@ -20,7 +20,7 @@ struct RoundedButtonStyle: ButtonStyle {
             .padding(CGFloatConstants.CGFloat10)
             .foregroundStyle(Color.black)
             .background(backgroundColor)
-            .applyTextStyle(.grayText)
+            .font(TextStyle.regular.getStyleComponents)
             .cornerRadius(CGFloatConstants.CGFloat25)
             .contentShape(RoundedRectangle(cornerRadius: CGFloatConstants.CGFloat25))
     }

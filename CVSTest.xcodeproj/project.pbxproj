@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9579639D2B3CC8C800BCE77E /* Text+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9579639C2B3CC8C800BCE77E /* Text+Extension.swift */; };
+		9579639F2B3CCB0A00BCE77E /* Localizables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9579639E2B3CCB0A00BCE77E /* Localizables.swift */; };
 		95A990312B3B7FCD005DCFB2 /* TextStyleViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A990302B3B7FCD005DCFB2 /* TextStyleViewModifier.swift */; };
-		95A990332B3B8165005DCFB2 /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A990322B3B8165005DCFB2 /* View+Extension.swift */; };
 		95A990402B3B889D005DCFB2 /* RoundedButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A9903F2B3B889D005DCFB2 /* RoundedButtonStyle.swift */; };
 		95A990422B3C3A48005DCFB2 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 95A990412B3C3A48005DCFB2 /* Localizable.xcstrings */; };
 		95BA3B782B330B5300964CCB /* CVSTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95BA3B772B330B5300964CCB /* CVSTestApp.swift */; };
@@ -45,8 +46,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9579639C2B3CC8C800BCE77E /* Text+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Text+Extension.swift"; sourceTree = "<group>"; };
+		9579639E2B3CCB0A00BCE77E /* Localizables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localizables.swift; sourceTree = "<group>"; };
 		95A990302B3B7FCD005DCFB2 /* TextStyleViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextStyleViewModifier.swift; sourceTree = "<group>"; };
-		95A990322B3B8165005DCFB2 /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
 		95A9903F2B3B889D005DCFB2 /* RoundedButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButtonStyle.swift; sourceTree = "<group>"; };
 		95A990412B3C3A48005DCFB2 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		95BA3B742B330B5300964CCB /* CVSTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CVSTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -127,7 +129,7 @@
 		95A990372B3B8526005DCFB2 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				95A990322B3B8165005DCFB2 /* View+Extension.swift */,
+				9579639C2B3CC8C800BCE77E /* Text+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -144,6 +146,7 @@
 			isa = PBXGroup;
 			children = (
 				95BA3BA82B330ED400964CCB /* CGFloatConstants.swift */,
+				9579639E2B3CCB0A00BCE77E /* Localizables.swift */,
 			);
 			path = Constants;
 			sourceTree = "<group>";
@@ -398,8 +401,9 @@
 				95BA3BA92B330ED400964CCB /* CGFloatConstants.swift in Sources */,
 				95A990312B3B7FCD005DCFB2 /* TextStyleViewModifier.swift in Sources */,
 				95BA3BAF2B33121200964CCB /* MovieDetailsFeature.swift in Sources */,
-				95A990332B3B8165005DCFB2 /* View+Extension.swift in Sources */,
+				9579639F2B3CCB0A00BCE77E /* Localizables.swift in Sources */,
 				95BA3BB32B3A4D8100964CCB /* MovieDetailsView.swift in Sources */,
+				9579639D2B3CC8C800BCE77E /* Text+Extension.swift in Sources */,
 				95BA3B782B330B5300964CCB /* CVSTestApp.swift in Sources */,
 				95A990402B3B889D005DCFB2 /* RoundedButtonStyle.swift in Sources */,
 				95BA3BB12B34E92D00964CCB /* MainScreenView.swift in Sources */,

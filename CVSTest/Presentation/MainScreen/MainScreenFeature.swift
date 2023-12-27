@@ -64,7 +64,6 @@ struct MainScreenFeature {
     }
     
     enum Action {
-        case viewDidAppear
         case sortButtonTapped
         case path(StackAction<MovieDetailsFeature.State, MovieDetailsFeature.Action>)
         case destination(PresentationAction<Destination.Action>)
@@ -76,10 +75,6 @@ struct MainScreenFeature {
     var body: some ReducerOf<Self> {
         Reduce { state, action in
             switch action {
-            case .viewDidAppear:
-                
-                return .none
-                
             case .sortButtonTapped:
                 state.destination = .confirmationDialog(.showDialog())
                 return .none
@@ -119,9 +114,9 @@ struct MainScreenFeature {
 extension ConfirmationDialogState where Action == MainScreenFeature.Action.ConfirmationDialog {
     static func showDialog() -> Self {
         ConfirmationDialogState(title: TextState(""), message: nil, buttons: [ButtonState.init(action: .send(.sortByName), label: {
-            TextState("Title")
+            TextState(Localizables.MainScreenStrings.title)
         }), ButtonState.init(action: .send(.sortByDate), label: {
-            TextState("Realised date")
+            TextState(Localizables.MovieDetailsStrings.releasedDate)
         })])
     }
 }
